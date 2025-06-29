@@ -1,7 +1,7 @@
 # COVID-19 Indonesia Data Analysis
 
 ## 📊 Overview
-Proses Komprehensif exploratory data analysis (EDA) dan visualisasi data pandemi COVID-19 di seluruh provinsi di Indonesia rentang Maret,2020 - April,2020. Proyek ini memberikan wawasan strategis mengenai pola penyebaran, dampak, dan pemulihan COVID-19 di Indonesia melalui 6 visualisasi inti dan analisis statistik yang ekstensif.
+Ini merupaka projek ke tiga saya dalam berusaha memahami konsep cleaning data,exploratory data analysis (EDA) dan juga melakukan visualisasi data pandemi COVID-19 di seluruh provinsi di Indonesia pada rentang Maret,2020 - April,2020[dataset] menggunakan MySql. Dalam hasilnya Proyek ini memberikan wawasan strategis mengenai pola penyebaran, dampak, dan pemulihan COVID-19 di Indonesia melalui 6 visualisasi inti dan analisis statistik yang baik.
 
 ## 🎯 Project Objectives
 - Menganalisis tren dan pola COVID-19 di seluruh provinsi di Indonesia
@@ -94,7 +94,7 @@ Dataset ini berisi informasi COVID-19 untuk provinsi-provinsi di Indonesia denga
 - **Statistik Dasar**: Total nasional, rata-rata, dan metrik utama
 - **Analisis Temporal**: Tren harian, pola bulanan, pertumbuhan mingguan
 - **Perbandingan Geografis**: Peringkat provinsi, analisis berdasarkan pulau
-- **Analisis Tingkat Lanjut**: Fungsi jendela, CTE, dan penghitungan yang rumit
+- **Analisis Tingkat Lanjut**: windows function, CTE, dan penghitungan yang rumit
 - **Pola Pemulihan**: Tingkat kesembuhan, rasio kematian, dan analisis hasil
 - **Analisis Tren**: Rata-rata bergulir, tingkat pertumbuhan, dan deteksi pola
 
@@ -122,17 +122,17 @@ Access the strategic dashboards here:
 ## 🔑 Strategic Insights Summary
 
 ### Healthcare System Intelligence
-- Provinsi-provinsi dengan CFR Kritis**: Identifikasi area yang membutuhkan intervensi segera
-- Efektivitas Pengobatan**: Efektivitas pengobatan: Tolok ukur kinerja layanan kesehatan provinsi
-- Perencanaan Kapasitas**: Penilaian beban waktu nyata melalui delta kasus aktif
+- **Provinsi-provinsi dengan CFR Kritis**: Identifikasi area yang membutuhkan intervensi segera
+- **Efektivitas Pengobatan**: Efektivitas pengobatan: Tolok ukur kinerja layanan kesehatan provinsi
+- **Perencanaan Kapasitas**: Penilaian beban waktu nyata melalui delta kasus aktif
 
 ### Epidemiological Intelligence
-- Pola Penyebaran**: Memahami jalur masuk dan penularan pandemi
+- **Pola Penyebaran**: Memahami jalur masuk dan penularan pandemi
 - **Sinkronisasi Gelombang**: Analisis waktu untuk perencanaan respons terkoordinasi
 - **Dinamika Titik Panas**: Perbedaan antara area wabah yang konsisten dan sporadis
 
 ### Policy Decision Support
-- Alokasi Sumber Daya**: Penentuan prioritas berdasarkan data berdasarkan CFR dan analisis puncak
+- **Alokasi Sumber Daya**: Penentuan prioritas berdasarkan data berdasarkan CFR dan analisis puncak
 - **Penentuan Waktu Intervensi**: Penentuan waktu yang strategis berdasarkan pola puncak di tingkat provinsi
 - **Prioritas Pemantauan**: Area fokus berdasarkan dinamika peringkat dan kecepatan penyebaran
 
