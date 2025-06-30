@@ -1,7 +1,7 @@
 # COVID-19 Indonesia Data Analysis -- Exploratory Data Analysis
 
 ## 📊 Overview
-Ini merupaka projek ke tiga saya dalam berusaha memahami konsep cleaning data,exploratory data analysis (EDA) dan juga melakukan visualisasi data pandemi COVID-19 di seluruh provinsi di Indonesia pada rentang Maret,2020 - April,2020[dataset] menggunakan MySql. Dalam hasilnya Proyek ini memberikan wawasan strategis mengenai pola penyebaran, dampak, dan pemulihan COVID-19 di Indonesia melalui 6 visualisasi inti dan analisis statistik yang baik.
+Ini merupaka projek ke tiga saya dalam berusaha memahami konsep cleaning data,exploratory data analysis (EDA) dan juga melakukan visualisasi data pandemi COVID-19 di seluruh provinsi di Indonesia pada rentang Maret 2020 - April 2020 menggunakan MySql. Dalam hasilnya Proyek ini memberikan wawasan strategis mengenai pola penyebaran, dampak, dan pemulihan COVID-19 di Indonesia melalui 6 visualisasi inti dan analisis statistik yang baik.
 
 ## 🎯 Tujuan Proyek
 - Menganalisis tren dan pola COVID-19 di seluruh provinsi di Indonesia
@@ -117,24 +117,7 @@ Dataset ini berisi informasi COVID-19 untuk provinsi-provinsi di Indonesia denga
 ## 📊 Akses Dashboard
 Akses Dashboard nya `Di link dibawah ini`:
 - [COVID-19 Strategic Analysis Dashboard](https://lookerstudio.google.com/reporting/220a9231-9153-4317-bbf8-1e4d2b173f65)
-
-
-## 🔑 Strategic Insights Summary
-
-### Healthcare System Intelligence
-- **Provinsi-provinsi dengan CFR Kritis**: Identifikasi area yang membutuhkan intervensi segera
-- **Efektivitas Pengobatan**: Efektivitas pengobatan: Tolok ukur kinerja layanan kesehatan provinsi
-- **Perencanaan Kapasitas**: Penilaian beban waktu nyata melalui delta kasus aktif
-
-### Epidemiological Intelligence
-- **Pola Penyebaran**: Memahami jalur masuk dan penularan pandemi
-- **Sinkronisasi Gelombang**: Analisis waktu untuk perencanaan respons terkoordinasi
-- **Dinamika Titik Panas**: Perbedaan antara area wabah yang konsisten dan sporadis
-
-### Policy Decision Support
-- **Alokasi Sumber Daya**: Penentuan prioritas berdasarkan data berdasarkan CFR dan analisis puncak
-- **Penentuan Waktu Intervensi**: Penentuan waktu yang strategis berdasarkan pola puncak di tingkat provinsi
-- **Prioritas Pemantauan**: Area fokus berdasarkan dinamika peringkat dan kecepatan penyebaran
+  
 
 ## 📝 How to Use This Repository
 
@@ -142,33 +125,15 @@ Akses Dashboard nya `Di link dibawah ini`:
 1. Review strategic visualizations di [dashboard](dashboard/covid19_dashboard_report.pdf)
 2. Access interactive dashboards for real-time analysis (https://lookerstudio.google.com/reporting/220a9231-9153-4317-bbf8-1e4d2b173f65)
 
-### For Policy Makers
-1. Fokus pada analisis CFR untuk keputusan alokasi sumber daya
-2. Gunakan garis waktu penyebaran untuk memahami pola wabah
-3. Memanfaatkan dinamika peringkat untuk intervensi yang ditargetkan
-
 ### For Data Scientists
 1. Periksa kueri SQL tingkat lanjut di [sql/EDA_Covid_Indo](sql/EDA_Covid_indo.sql)
 2. Mempelajari metodologi visualisasi dan pendekatan strategis
 3. Mengadaptasi kerangka analisis untuk wilayah atau penyakit lain
 
-### For Healthcare Administrators
-1. Memprioritaskan perbandingan pemulihan vs kematian untuk tolok ukur kinerja
-2. Gunakan delta kasus aktif untuk perencanaan kapasitas
-3. Referensi waktu puncak untuk persiapan staf dan sumber daya
-
-## 🚀 Future Enhancements
-- **Vaccination impact** analysis integration
-- **Demographic stratification** by age and risk groups
-- **Economic correlation** analysis with case patterns
-- **Predictive modeling** for outbreak forecasting
-
 ## 📧 Contact
 **Author**: [Faraj Hafidh]  
-**Email**: [faraj.hafidh@gmail.com]  
-**LinkedIn**: [Your LinkedIn Profile]  
+**Email**: [faraj.hafidh@gmail.com]   
 **Project Date**: [2025-06-29]
 
 
 ---
-*Analisis ini berfokus pada 6 visualisasi strategis yang dirancang untuk memberikan dampak kebijakan yang maksimal, didukung oleh fondasi EDA yang komprehensif.*
