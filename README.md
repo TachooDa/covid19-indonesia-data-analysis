@@ -1,15 +1,15 @@
-# COVID-19 Indonesia Data Analysis
+# COVID-19 Indonesia Data Analysis -- Exploratory Data Analysis
 
 ## 📊 Overview
 Ini merupaka projek ke tiga saya dalam berusaha memahami konsep cleaning data,exploratory data analysis (EDA) dan juga melakukan visualisasi data pandemi COVID-19 di seluruh provinsi di Indonesia pada rentang Maret,2020 - April,2020[dataset] menggunakan MySql. Dalam hasilnya Proyek ini memberikan wawasan strategis mengenai pola penyebaran, dampak, dan pemulihan COVID-19 di Indonesia melalui 6 visualisasi inti dan analisis statistik yang baik.
 
-## 🎯 Project Objectives
+## 🎯 Tujuan Proyek
 - Menganalisis tren dan pola COVID-19 di seluruh provinsi di Indonesia
 - Membuat visualisasi strategis untuk pengambilan keputusan kesehatan masyarakat
 - Memberikan wawasan berbasis data tentang tingkat kematian kasus, pola pemulihan, dan variasi regional
 - Mendukung pembuat kebijakan dengan intelijen pandemi yang dapat ditindaklanjuti
 
-## 📁 Project Structure
+## 📁 Struktur Proyek
 ```
 covid19-indonesia-analysis/
 ├── README.md
@@ -33,7 +33,7 @@ covid19-indonesia-analysis/
 
 ```
 
-## 🗂️ Data Description
+## 🗂️ Deskripsi Data
 Dataset ini berisi informasi COVID-19 untuk provinsi-provinsi di Indonesia dengan kolom-kolom utama sebagai berikut:
 - **Date**: Daily records from pandemic start
 - **Province**: 34 Indonesian provinces
@@ -78,7 +78,7 @@ Dataset ini berisi informasi COVID-19 untuk provinsi-provinsi di Indonesia denga
 
 ### 5. **Recovery vs Death Comparison** ⚖️
 - **Tujuan**: Membandingkan efektivitas pengobatan di seluruh provinsi
--**Key Insight**: Kinerja provinsi dalam hasil pasien
+- **Key Insight**: Kinerja provinsi dalam hasil pasien
 - **Implementasi Looker Studio**: X = Kematian, Y = Sembuh, Ukuran = Jumlah Kasus dengan indikator rasio
 - **Nilai Strategis**: Penilaian kualitas layanan kesehatan dan identifikasi praktik terbaik
 
@@ -98,7 +98,7 @@ Dataset ini berisi informasi COVID-19 untuk provinsi-provinsi di Indonesia denga
 - **Pola Pemulihan**: Tingkat kesembuhan, rasio kematian, dan analisis hasil
 - **Analisis Tren**: Rata-rata bergulir, tingkat pertumbuhan, dan deteksi pola
 
-### Key EDA Insights Available
+### Key Insight EDA yang tesedia
 - Rata-rata dan peringkat kasus harian provinsi
 - Distribusi dampak pandemi berdasarkan pulau
 - Tingkat pemulihan yang ekstrem dan kinerja layanan kesehatan
@@ -108,14 +108,14 @@ Dataset ini berisi informasi COVID-19 untuk provinsi-provinsi di Indonesia denga
 - Garis waktu kasus pertama dan kecepatan penyebaran
 - Analisis tingkat kematian dan pola kematian
 
-## 🛠️ Technologies Used
-- **SQL**: Advanced data analysis with CTEs and window functions
-- **Looker Studio**: Interactive dashboards and strategic visualizations
-- **MySQL**: Database management and complex query processing
-- **Git**: Version control and project management
+## 🛠️ Teknologi yang digunakan
+- **SQL**: Analisis data tingkat lanjut dengan CTE dan fungsi jendela
+- **Looker Studio**: Dashboard interaktif dan visualisasi strategis
+- **MySQL**: Manajemen basis data dan pemrosesan kueri yang kompleks
+- **Git**: version Control dan manajemen proyek
 
-## 📊 Dashboard Access
-Access the strategic dashboards here:
+## 📊 Akses Dashboard
+Akses Dashboard nya `Di link dibawah ini`:
 - [COVID-19 Strategic Analysis Dashboard](https://lookerstudio.google.com/reporting/220a9231-9153-4317-bbf8-1e4d2b173f65)
 
 
@@ -139,7 +139,7 @@ Access the strategic dashboards here:
 ## 📝 How to Use This Repository
 
 ### For Public Health Officials
-1. Review strategic visualizations in [dashboard](dashboard/covid19_dashboard_report.pdf)
+1. Review strategic visualizations di [dashboard](dashboard/covid19_dashboard_report.pdf)
 2. Access interactive dashboards for real-time analysis (https://lookerstudio.google.com/reporting/220a9231-9153-4317-bbf8-1e4d2b173f65)
 
 ### For Policy Makers
@@ -148,7 +148,7 @@ Access the strategic dashboards here:
 3. Memanfaatkan dinamika peringkat untuk intervensi yang ditargetkan
 
 ### For Data Scientists
-1. Periksa kueri SQL tingkat lanjut in [sql/EDA_Covid_Indo](sql/EDA_Covid_indo.sql)
+1. Periksa kueri SQL tingkat lanjut di [sql/EDA_Covid_Indo](sql/EDA_Covid_indo.sql)
 2. Mempelajari metodologi visualisasi dan pendekatan strategis
 3. Mengadaptasi kerangka analisis untuk wilayah atau penyakit lain
 
