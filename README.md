@@ -15,13 +15,13 @@ covid19-indonesia-analysis/
 ├── README.md
 ├── data/
 │   ├── raw/
-│   │   └── covid19_indonesia.csv
+│   │   └── covid19_indonesia_raw.csv
 │   └── processed/
-│       └── covid19_indonesia_cleaned.csv
+│       └── covid19_indonesia.csv
 ├── sql/
 │   └── EDA_Covid_indo.sql
 ├── dashboards/ 
-│   │   ├── covid_strategic_dashboard.pdf
+│   │   ├── covid19_dashboard_reports.pdf
 │   │   └── dashboard_links.md
 │   └── screenshots/
 │       ├── cfr_provincial_analysis.png
